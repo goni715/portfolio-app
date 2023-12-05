@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.vertical-timeline-element-title{
+  color: #138781;
+}
+
+.vertical-timeline-element-subtitle{
+  color: #1e1e2c;
+}
+
+
+.project-card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
+  transition: all 0.5s ease;
+}
+
+.view-btn:hover{
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
+}
+
+.contact-card{
+  box-shadow: 0 4px 8px 0 #757575;
+}
+
+
+
+.active {
+  color: #f29f67 !important;
+  border-left: 5px solid #f29f67 !important;
+  padding-left: 10px !important;
+  text-decoration: none !important;
+}
+
+button:disabled{
+  cursor: not-allowed;
+}
+
+
+
+
