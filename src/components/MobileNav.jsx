@@ -27,7 +27,7 @@ const MobileNav = () => {
     }
     return (
         <>
-            <div className="mobile-nav block md:hidden w-full fixed top-0 z-1 overflow-hidden">
+            <div className="mobile-nav block md:hidden w-full fixed top-0 z-20 overflow-hidden">
                 <div className="mobile-nav-header flex items-center h-[50px] w-full bg-[#1e1e1e] p-2 ">
                     {open ? (
                         <IoMdClose className="mobile-nav-icon text-white cursor-pointer" size={30} onClick={handleOpen}/>
