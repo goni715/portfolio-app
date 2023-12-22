@@ -8,7 +8,7 @@ const TechStack = () => {
             {/*Tech Stack*/}
             <div id="tech-stack" className="px-9 md:px-14 min-[992px]:px-20 bg-white py-8">
                 <div className="">
-                    <h2 className="text-center font-bold text-2xl md:text-3xl uppercase text-[#138781] mb-2">Technologies Stack</h2>
+                    <h2 className="text-center font-bold text-2xl md:text-3xl uppercase text-[#138781] mb-2">My Skills</h2>
                     <hr className="mx-auto w-[200px] md:w-[400px] text-[#138781] border border-bottom-[#138781]"/>
                     <p className="text-center py-6">
                         👉 including programming Language, frameworks, databases, front-end and back-end tools, and APIs

@@ -11,7 +11,7 @@ const Content = () => {
     return (
         <>
             {/*Content*/}
-            <div className="content md:pl-[180px] bg-black">
+            <div className="content pt-[100px] bg-black">
 
 
                 <Home/>

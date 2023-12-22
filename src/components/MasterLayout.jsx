@@ -8,7 +8,7 @@ const MasterLayout = () => {
         <>
             <div className="min-h-screen">
                 <div className="layout flex">
-                   <Sidebar/>
+                   {/*<Sidebar/>*/}
                     <Content/>
                 </div>
             </div>
