@@ -18,14 +18,14 @@ const Contact = () => {
                         <div className="px-8">
                             <div className="flex items-center gap-4">
                                 Contact With
-                                <a href="https://github.com/goni715" target="_blank">
+                                <a href="https://www.linkedin.com/in/osman-goni-452860280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                                     <BsLinkedin color="blue" size={30} className="ms-2" />
                                 </a>
                                 <a href="https://github.com/goni715" target="_blank">
                                     <BsGithub color="black" size={30} className="ms-2" />
                                 </a>
 
-                                <a href="https://github.com/goni715" target="_blank">
+                                <a href="https://www.facebook.com/profile.php?id=100024226402338" target="_blank">
                                     <BsFacebook color="blue" size={30} className="ms-2" />
                                 </a>
                             </div>

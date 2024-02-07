@@ -19,7 +19,7 @@ const Content = () => {
                 <Education/>
                 <TechStack/>
                 <AllProject/>
-                <WorkExperience/>
+                {/*<WorkExperience/>*/}
                 <Contact/>
                 <Footer/>
 

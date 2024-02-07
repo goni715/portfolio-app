@@ -6,7 +6,7 @@ import {
     SiJavascript, SiLaravel,
     SiMongodb,
     SiMui,
-    SiMysql,
+    SiMysql, SiPrisma,
     SiReact,
     SiTailwindcss
 } from "react-icons/si";
@@ -86,8 +86,13 @@ export const TechList = [
     },
     {
         _id: 22,
-        name: "Laravel",
-        icon: SiLaravel,
-    }
+        name: "Prisma",
+        icon: SiPrisma,
+    },
+    // {
+    //     _id: 22,
+    //     name: "Laravel",
+    //     icon: SiLaravel,
+    // }
 ];
 

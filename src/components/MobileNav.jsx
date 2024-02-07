@@ -56,14 +56,14 @@ const MobileNav = () => {
                                                 <FcReadingEbook/>  Education
                                         </Link>
                                         <Link className="nav-link pl-6 flex items-center gap-3 cursor-pointer" to="tech-stack" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
-                                                <FcBiotech/>  Tech Stack
+                                                <FcBiotech/>  Skills
                                         </Link>
                                         <Link className="nav-link pl-6 flex items-center gap-3 cursor-pointer" to="projects" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
                                                 <FcVideoProjector/>  Projects
                                         </Link>
-                                        <Link className="nav-link pl-6 flex items-center gap-3 cursor-pointer" to="work" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
-                                                <FcPortraitMode />Work Experience
-                                        </Link>
+                                        {/*<Link className="nav-link pl-6 flex items-center gap-3 cursor-pointer" to="work" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>*/}
+                                        {/*        <FcPortraitMode />Work Experience*/}
+                                        {/*</Link>*/}
                                         <Link className="nav-link pl-6 flex items-center gap-3 cursor-pointer" to="contact" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
                                                 <FcBusinessContact/> Contact
                                         </Link>

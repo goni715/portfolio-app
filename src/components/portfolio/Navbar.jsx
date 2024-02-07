@@ -31,9 +31,9 @@ const Navbar = () => {
                         <Link className="my-6 md:my-0 cursor-pointer text-gray-900 hover:text-indigo-600" to="projects" spy={true} smooth={true} offset={-100} duration={100}>
                             <span className="font-medium duration-500" >Projects</span>
                         </Link>
-                        <Link className="my-6 md:my-0 cursor-pointer text-gray-900 hover:text-indigo-600" to="work" spy={true} smooth={true} offset={-100} duration={100}>
-                            <span className="font-medium duration-500" >Work Experience</span>
-                        </Link>
+                        {/*<Link className="my-6 md:my-0 cursor-pointer text-gray-900 hover:text-indigo-600" to="work" spy={true} smooth={true} offset={-100} duration={100}>*/}
+                        {/*    <span className="font-medium duration-500" >Work Experience</span>*/}
+                        {/*</Link>*/}
                         <Link className="my-6 md:my-0 cursor-pointer text-gray-900 hover:text-indigo-600" to="contact" spy={true} smooth={true} offset={-100} duration={100}>
                             <span className="font-medium duration-500" >Contact</span>
                         </Link>
