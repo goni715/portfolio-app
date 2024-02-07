@@ -9,7 +9,9 @@ const Navbar = () => {
                     <div className="flex items-center justify-between">
                         <a href="" className="flex items-center">
                             <img src={logo} alt="logo" className="h-10 mr-3"/>
-                            <span className="text-2xl text-gray-900 font-bold">Hales</span>
+                            <span className="text-2xl text-gray-900 font-bold">
+                                Goni
+                            </span>
                         </a>
                         {/*<span className="block mx-2 text-3xl bg-gray-100 p-2 rounded-lg md:hidden">*/}
                         {/*    <IoMdMenu size={25}/>*/}
